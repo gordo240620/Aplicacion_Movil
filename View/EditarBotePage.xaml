@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:TrashTec_MVVM_5B.ViewModels"
+             x:Class="TrashTec_MVVM_5B.View.EditarBotePage"
+             Title="">
+    <ContentPage.BindingContext>
+        <viewModels:EditNameViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Padding="30" Spacing="25"
+                         VerticalOptions="Center">
+
+        <Label Text="Bote de CDS" FontSize="28" TextColor="Blue" 
+               HorizontalOptions="Center" FontAttributes="Bold"/>
+
+        <Label Text="Nombre" FontSize="20" TextColor="Blue" 
+               HorizontalOptions="Center" />
+
+        <!-- Caja de Texto Mejorada -->
+        <Frame Padding="5" CornerRadius="20" BorderColor="LightGray" 
+               BackgroundColor="#F2F2F2" HasShadow="False">
+            <Entry Text="{Binding Name}" Placeholder="Nombre" 
+                   FontSize="18" BackgroundColor="Transparent" 
+                   TextColor="Black" PlaceholderColor="Gray"
+                   HorizontalOptions="FillAndExpand"
+                   Margin="5"/>
+        </Frame>
+
+        <!-- Botones Centrado -->
+        <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+            <Button Text="Cancelar" Command="{Binding CancelCommand}"
+                    BackgroundColor="Red" TextColor="White"
+                    WidthRequest="130" HeightRequest="50" CornerRadius="15"
+                    FontSize="16"/>
+
+            <Button Text="Aceptar" Command="{Binding AcceptCommand}"
+                    BackgroundColor="LightGreen" TextColor="White"
+                    WidthRequest="130" HeightRequest="50" CornerRadius="15"
+                    FontSize="16"/>
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

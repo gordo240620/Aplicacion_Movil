@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:viewModels="clr-namespace:TrashTec_MVVM_5B.ViewModels"
+             x:Class="TrashTec_MVVM_5B.View.Principal"
+             Title="">
+    <ContentPage.BindingContext>
+        <viewModels:PrincipalViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Padding="20">
+
+        <!-- ENCABEZADO (LOGO + PERFIL) -->
+        <Grid ColumnDefinitions="*,Auto,Auto" Padding="0,10,10,10">
+         
+            <Image Source="usuario.png"
+                   HeightRequest="80"
+                   WidthRequest="80"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Margin="10,0,0,0"/>
+        </Grid>
+
+        <!-- Botón para agregar nuevo bote -->
+        <Button Text="Añadir nuevo"
+                Command="{Binding AgregarBoteCommand}"
+                BackgroundColor="#B0D6E6"
+                TextColor="Black"
+                FontSize="18"
+                CornerRadius="10"
+                WidthRequest="180"
+                HorizontalOptions="Center"
+                Padding="10"/>
+
+        <!-- Lista de botes en cuadrícula -->
+        <CollectionView ItemsSource="{Binding Botes}">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" Span="2"/>
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="10" BorderColor="Gray" CornerRadius="10">
+                        <VerticalStackLayout HorizontalOptions="Center">
+                            <!-- Nombre del bote -->
+                            <Label Text="{Binding Nombre}" 
+                                   FontSize="20" 
+                                   TextColor="Blue" 
+                                   HorizontalOptions="Center"/>
+
+                            <!-- Icono del bote -->
+                            <Image Source="boteicono.png" 
+                                   HeightRequest="80" 
+                                   WidthRequest="80" 
+                                   HorizontalOptions="Center"/>
+
+                            <!-- Nivel de llenado con color dinámico -->
+                            <Label Text="{Binding NivelLlenado, StringFormat='{0}%'}"
+                                   FontSize="18"
+                                   TextColor="Red"
+                                   HorizontalOptions="Center"/>
+
+                            <!-- Botón de opciones -->
+                            <Button Text="Opciones"
+                                    BackgroundColor="#B0D6E6"
+                                    TextColor="Black"
+                                    FontSize="16"
+                                    Padding="5"
+                                    CornerRadius="10"
+                                    HorizontalOptions="Center"
+                                    Clicked="Button_Clicked"/>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

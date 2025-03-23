@@ -1,0 +1,492 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\view\\opciones.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:view\\opciones.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\viewmodels\\opcionesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:viewmodels\\opcionesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\models\\opciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:models\\opciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\view\\editarbotepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:view\\editarbotepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\viewmodels\\editnameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:viewmodels\\editnameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\view\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:view\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\view\\eliminarbote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:view\\eliminarbote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\view\\opciones.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:view\\opciones.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\models\\cdsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:models\\cdsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\models\\eliminarbote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:models\\eliminarbote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\models\\bote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:models\\bote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\viewmodels\\eliminarbote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:viewmodels\\eliminarbote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\viewmodels\\principalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:viewmodels\\principalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\viewmodels\\recuperarcontrasenaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:viewmodels\\recuperarcontrasenaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\models\\buscarbote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:models\\buscarbote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\view\\principal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:view\\principal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\view\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:view\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\view\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:view\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\view\\recupararcontrasena.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:view\\recupararcontrasena.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\models\\usuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:models\\usuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\models\\recuperarcontrasena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:models\\recuperarcontrasena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\view\\recupararcontrasena.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:view\\recupararcontrasena.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|c:\\users\\manue\\source\\repos\\trashtec_mvvm_5b\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32761B43-C964-43C1-81AB-FB5E6E4DAD60}|TrashTec_MVVM_5B.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditNameViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\EditNameViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\EditNameViewModel.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\EditNameViewModel.cs",
+              "RelativeToolTip": "ViewModels\\EditNameViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T06:05:26.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CdsModel.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\CdsModel.cs",
+              "RelativeDocumentMoniker": "Models\\CdsModel.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\CdsModel.cs",
+              "RelativeToolTip": "Models\\CdsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T06:03:57.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditarBotePage.xaml",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\EditarBotePage.xaml",
+              "RelativeDocumentMoniker": "View\\EditarBotePage.xaml",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\EditarBotePage.xaml",
+              "RelativeToolTip": "View\\EditarBotePage.xaml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwCoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T05:43:45.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EliminarBote.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\EliminarBote.cs",
+              "RelativeDocumentMoniker": "ViewModels\\EliminarBote.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\EliminarBote.cs",
+              "RelativeToolTip": "ViewModels\\EliminarBote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T05:24:17.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EliminarBote.xaml",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\EliminarBote.xaml",
+              "RelativeDocumentMoniker": "View\\EliminarBote.xaml",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\EliminarBote.xaml",
+              "RelativeToolTip": "View\\EliminarBote.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T05:21:37.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EliminarBote.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\EliminarBote.cs",
+              "RelativeDocumentMoniker": "Models\\EliminarBote.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\EliminarBote.cs",
+              "RelativeToolTip": "Models\\EliminarBote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T05:20:16.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Opciones.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Opciones.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Opciones.xaml.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Opciones.xaml.cs",
+              "RelativeToolTip": "View\\Opciones.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:28:32.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Opciones.xaml",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Opciones.xaml",
+              "RelativeDocumentMoniker": "View\\Opciones.xaml",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Opciones.xaml",
+              "RelativeToolTip": "View\\Opciones.xaml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T02:14:08.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OpcionesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\OpcionesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OpcionesViewModel.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\OpcionesViewModel.cs",
+              "RelativeToolTip": "ViewModels\\OpcionesViewModel.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:10:02.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Opciones.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\Opciones.cs",
+              "RelativeDocumentMoniker": "Models\\Opciones.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\Opciones.cs",
+              "RelativeToolTip": "Models\\Opciones.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:07:38.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Buscarbote.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\Buscarbote.cs",
+              "RelativeDocumentMoniker": "Models\\Buscarbote.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\Buscarbote.cs",
+              "RelativeToolTip": "Models\\Buscarbote.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:10:26.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Recupararcontrasena.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Recupararcontrasena.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Recupararcontrasena.xaml.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Recupararcontrasena.xaml.cs",
+              "RelativeToolTip": "View\\Recupararcontrasena.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:05:32.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Principal.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Principal.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Principal.xaml.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Principal.xaml.cs",
+              "RelativeToolTip": "View\\Principal.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:05:32.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Principal.xaml",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Principal.xaml",
+              "RelativeDocumentMoniker": "View\\Principal.xaml",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Principal.xaml",
+              "RelativeToolTip": "View\\Principal.xaml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T16:23:54.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PrincipalViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\PrincipalViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\PrincipalViewModel.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\PrincipalViewModel.cs",
+              "RelativeToolTip": "ViewModels\\PrincipalViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:07:22.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Bote.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\Bote.cs",
+              "RelativeDocumentMoniker": "Models\\Bote.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\Bote.cs",
+              "RelativeToolTip": "Models\\Bote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:05:29.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Login.xaml.cs",
+              "RelativeToolTip": "View\\Login.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:18:23.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Recupararcontrasena.xaml",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Recupararcontrasena.xaml",
+              "RelativeDocumentMoniker": "View\\Recupararcontrasena.xaml",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Recupararcontrasena.xaml",
+              "RelativeToolTip": "View\\Recupararcontrasena.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T04:00:33.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RecuperarContrasenaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\RecuperarContrasenaViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RecuperarContrasenaViewModel.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\RecuperarContrasenaViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RecuperarContrasenaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:58:26.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RecuperarContrasena.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\RecuperarContrasena.cs",
+              "RelativeDocumentMoniker": "Models\\RecuperarContrasena.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\RecuperarContrasena.cs",
+              "RelativeToolTip": "Models\\RecuperarContrasena.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:56:58.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Login.xaml",
+              "RelativeDocumentMoniker": "View\\Login.xaml",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\Login.xaml",
+              "RelativeToolTip": "View\\Login.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T03:22:05.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA5wC8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:20:23.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UsuarioLogin.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\UsuarioLogin.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioLogin.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\UsuarioLogin.cs",
+              "RelativeToolTip": "Models\\UsuarioLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:19:15.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:10:40.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T03:07:26.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T02:48:46.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\MainPage.xaml.cs",
+              "RelativeToolTip": "View\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T02:24:07.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\MainPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainPageViewModel.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\ViewModels\\MainPageViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainPageViewModel.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwG0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T02:14:50.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\MainPage.xaml",
+              "RelativeDocumentMoniker": "View\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\TrashTec_MVVM_5B\\View\\MainPage.xaml",
+              "RelativeToolTip": "View\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T02:10:30.493Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

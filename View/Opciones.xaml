@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:TrashTec_MVVM_5B.ViewModels"
+             x:Class="TrashTec_MVVM_5B.View.Opciones"
+             Title="">
+    <ContentPage.BindingContext>
+        <viewModels:OpcionesViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Padding="20" Spacing="10" HorizontalOptions="Center">
+        <Label Text="" FontSize="30" TextColor="Blue" HorizontalOptions="Center"/>
+
+        <Image Source="boteicono.png" WidthRequest="100" HeightRequest="100"/>
+
+        <Label Text="{Binding Opciones.FillLevel, StringFormat='{0}%'}"
+               FontSize="20" TextColor="Blue" HorizontalOptions="Center"/>
+
+        <Button Text="{Binding OpenButtonText}" Command="{Binding OpenCommand}" 
+        BackgroundColor="LightBlue" TextColor="Black"/>
+
+        <HorizontalStackLayout Spacing="20">
+            <Button Text="Eliminar bote" Command="{Binding DeleteCommand}" 
+                    BackgroundColor="Red" TextColor="White" Clicked="Button_Clicked_1"/>
+
+            <Button Text="Editar bote" Command="{Binding EditCommand}" 
+                    BackgroundColor="Orange" TextColor="Black" Clicked="Button_Clicked"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

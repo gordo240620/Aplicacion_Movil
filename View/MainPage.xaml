@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:TrashTec_MVVM_5B.ViewModels"
+             x:Class="TrashTec_MVVM_5B.MainPage">
+
+    <ContentPage.BindingContext>
+        <viewModels:RegistroViewModel />
+    </ContentPage.BindingContext>
+
+
+    <VerticalStackLayout Padding="30" Spacing="20">
+        <Label Text="TrashTec"
+               FontSize="36"
+               FontAttributes="Bold"
+               TextColor="Blue"
+               HorizontalOptions="Center" />
+        <Label Text="REGISTRO"
+               FontSize="18"
+               TextColor="Blue"
+               HorizontalOptions="Center" />
+
+        <Label Text="Nombre"
+               FontSize="14"
+               TextColor="Blue" />
+        <Frame BackgroundColor="#F3F4F6"
+               CornerRadius="10"
+               BorderColor="#D1D5DB"
+               Padding="5"
+               HeightRequest="50">
+            <Entry Placeholder="Nombre"
+                   Text="{Binding Nombre}"
+                   TextColor="Black" />
+        </Frame>
+
+        <Label Text="Email"
+               FontSize="14"
+               TextColor="Blue" />
+        <Frame BackgroundColor="#F3F4F6"
+               CornerRadius="10"
+               BorderColor="#D1D5DB"
+               Padding="5"
+               HeightRequest="50">
+            <Entry Placeholder="example@email.com"
+                   Text="{Binding Email}"
+                   TextColor="Black"
+                   Keyboard="Email" />
+        </Frame>
+
+        <!-- Mensaje de error de email -->
+        <Label Text="{Binding EmailError}"
+               TextColor="Red"
+               FontSize="12"
+               IsVisible="{Binding IsEmailErrorVisible}" />
+
+        <Label Text="Password"
+               FontSize="14"
+               TextColor="Blue" />
+        <Frame BackgroundColor="#F3F4F6"
+               CornerRadius="10"
+               BorderColor="#D1D5DB"
+               Padding="5"
+               HeightRequest="50">
+            <Entry Placeholder="********"
+                   Text="{Binding Password}"
+                   TextColor="Black"
+                   IsPassword="True" />
+        </Frame>
+
+        <!-- Mensaje de error de la contraseña -->
+        <Label Text="{Binding PasswordError}"
+               TextColor="Red"
+               FontSize="12"
+               IsVisible="{Binding IsPasswordErrorVisible}" />
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="¿Tiene una cuenta? "
+                   TextColor="Gray"
+                   FontSize="12" />
+            <Label Text="Iniciar sesión"
+                   TextColor="Blue"
+                   FontSize="12"
+                   FontAttributes="Bold">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding LoginCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+        </HorizontalStackLayout>
+
+        <Button Text="Continue"
+                BackgroundColor="Blue"
+                TextColor="White"
+                HeightRequest="50"
+                CornerRadius="10"
+                FontAttributes="Bold"
+                Clicked="OnRegistrarClicked"
+                Command="{Binding LoginCommand}" />
+    </VerticalStackLayout>
+</ContentPage>

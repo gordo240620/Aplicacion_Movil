@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:TrashTec_MVVM_5B.ViewModels"
+             x:Class="TrashTec_MVVM_5B.View.EliminarBote"
+             Title="">
+    <ContentPage.BindingContext>
+        <viewModels:EliminarBote />
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="30" VerticalOptions="Center">
+        <Label Text="Bote de CDS"
+               FontSize="24"
+               TextColor="Blue"
+               HorizontalOptions="Center"/>
+
+        <Label Text="¿Desea eliminar este bote?"
+               FontSize="18"
+               TextColor="Blue"
+               HorizontalOptions="Center"
+               Margin="0,30,0,30"/>
+
+        <Grid ColumnSpacing="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="cancelar"
+                BackgroundColor="Red"
+                TextColor="White"
+                Command="{Binding CancelarCommand}"
+                CornerRadius="10"
+                Grid.Column="0">
+                <Button.Shadow>
+                    <Shadow Brush="Black" Offset="5,5" Opacity="0.5" Radius="10"/>
+                </Button.Shadow>
+            </Button>
+            <Button Text="aceptar"
+               BackgroundColor="LightGreen"
+               TextColor="White"
+               Command="{Binding AceptarCommand}"
+               CornerRadius="10"
+               Grid.Column="1">
+                <Button.Shadow>
+                    <Shadow Brush="Black" Offset="5,5" Opacity="0.5" Radius="10"/>
+                </Button.Shadow>
+            </Button>
+        </Grid>
+    </StackLayout>
+</ContentPage>
