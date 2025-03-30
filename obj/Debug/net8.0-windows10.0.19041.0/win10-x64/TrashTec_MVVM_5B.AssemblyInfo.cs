@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrashTec_MVVM_5B")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0a9de268357f728c24a90fe16c84044d6b25001d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrashTec_MVVM_5B")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrashTec_MVVM_5B")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

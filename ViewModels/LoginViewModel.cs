@@ -1,57 +1,60 @@
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Windows.Input;
-using TrashTec_MVVM_5B.Models;
-using TrashTec_MVVM_5B.View;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
-namespace TrashTec_MVVM_5B.ViewModels;
-
-public class LoginViewModel : INotifyPropertyChanged
+public class LoginViewModel
 {
-    private Usuario _usuario;
-
-    public Usuario Usuario
-    {
-        get => _usuario;
-        set
-        {
-            _usuario = value;
-            OnPropertyChanged();
-        }
-    }
-
-    public ICommand EntrarCommand { get; }
-    public ICommand RecuperarCommand { get; }
-
-    public event PropertyChangedEventHandler PropertyChanged;
+    private readonly HttpClient _httpClient;
 
     public LoginViewModel()
     {
-        Usuario = new Usuario();
-        EntrarCommand = new Command(OnEntrar);
-        RecuperarCommand = new Command(OnRecuperar);
+        _httpClient = new HttpClient();
     }
 
-    private async void OnEntrar()
+    public async Task<bool> IniciarSesion(string email, string contrasena)
     {
-        // L�gica de autenticaci�n aqu�
-        if (!string.IsNullOrEmpty(Usuario.Email) && !string.IsNullOrEmpty(Usuario.Password))
+        var json = JsonSerializer.Serialize(new { email, contrasena });
+        var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+        HttpResponseMessage response = await _httpClient.PostAsync("https://tuapi.com/api/auth/login", content);
+
+        if (response.IsSuccessStatusCode)
         {
-            await Application.Current.MainPage.Navigation.PushAsync(new ());
+            string responseBody = await response.Content.ReadAsStringAsync();
+            var loginResponse = JsonSerializer.Deserialize<LoginResponse>(responseBody);
+
+            // 🔹 Guardar el token en Preferences
+            Preferences.Set("AuthToken", loginResponse.Token);
+
+            // 🔹 Decodificar el nombreusuario desde el token
+            var nombreUsuario = ObtenerNombreUsuarioDesdeToken(loginResponse.Token);
+            Preferences.Set("NombreUsuario", nombreUsuario);
+
+            return true;
         }
         else
         {
-            await Application.Current.MainPage.DisplayAlert("Error", "Por favor, completa todos los campos.", "OK");
+            Console.WriteLine("❌ Error en el inicio de sesión.");
+            return false;
         }
     }
 
-    private async void OnRecuperar()
+    private string ObtenerNombreUsuarioDesdeToken(string token)
     {
-        await Application.Current.MainPage.Navigation.PushAsync(new Recupararcontrasena());
+        var handler = new JwtSecurityTokenHandler();
+        var jwtToken = handler.ReadJwtToken(token);
+        var nombreUsuario = jwtToken.Claims.FirstOrDefault(c => c.Type == "nombreusuario")?.Value;
+        return nombreUsuario ?? "Usuario";
     }
+}
 
-    protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
-    {
-        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-    }
+// 🔹 Modelo para recibir la respuesta de la API
+public class LoginResponse
+{
+    public string Token { get; set; }
+    public List<string> Dispositivos { get; set; }
 }
